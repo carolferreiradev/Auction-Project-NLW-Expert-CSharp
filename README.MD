@@ -7,6 +7,8 @@
 - ORM Entity Framework;
 - Unit testing.
 
+![swagger](https://github.com/carolferreiradev/Auction-Project-NLW-Expert-CSharp/blob/main/docs/swagger.png)
+
 ### Open DB File
 - SQLite Browser - https://sqlitebrowser.org/dl/
 
