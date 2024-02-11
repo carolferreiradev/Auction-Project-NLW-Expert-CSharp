@@ -13,7 +13,8 @@
 - SQLite Browser - https://sqlitebrowser.org/dl/
 
 ### Necessary changes for API execution
-In `api\src\AuctionProject.API\Program.cs`, change **YOUR_DB_PATH** to the path where your database is located.
+- You can find DataBase File in /api/leilaoDbNLW.db;
+- In `api\src\AuctionProject.API\Program.cs`, change **YOUR_DB_PATH** to the path where your database is located.
 
 ``builder.Services.AddDbContext<AuctionProjectDbContext>(options => {
     options.UseSqlite("Data Source=YOUR_DB_PATH");
